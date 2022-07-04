@@ -1,0 +1,24 @@
+2022-06-30 15:26:29.745  INFO 25216 --- [main] com.yc.controller.HdfsControllerTest     : Starting HdfsControllerTest using Java 1.8.0_65 on Mufeng with PID 25216 (started by MF in D:\IDEAProjects\clouddisk)
+2022-06-30 15:26:29.748  INFO 25216 --- [main] com.yc.controller.HdfsControllerTest     : The following 1 profile is active: "sec"
+2022-06-30 15:26:30.344  INFO 25216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:26:30.409  INFO 25216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2022-06-30 15:26:30.904  INFO 25216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:26:32.179  INFO 25216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:26:32.234  INFO 25216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:26:32.275  INFO 25216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-06-30 15:26:32.431  INFO 25216 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:26:32.535  INFO 25216 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-30 15:26:32.959  INFO 25216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:26:32.967  INFO 25216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:26:33.036  WARN 25216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:26:33.495  WARN 25216 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 15:26:33.498  INFO 25216 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2022-06-30 15:26:33.498  WARN 25216 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 15:26:33.498  INFO 25216 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-06-30 15:26:33.498  WARN 25216 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/pics/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 15:26:33.498  INFO 25216 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2022-06-30 15:26:33.651  INFO 25216 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-06-30 15:26:34.568  INFO 25216 --- [main] com.yc.controller.HdfsControllerTest     : Started HdfsControllerTest in 5.133 seconds (JVM running for 6.012)
+2022-06-30 15:26:34.677  INFO 25216 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:26:34.677  INFO 25216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:26:34.686  INFO 25216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

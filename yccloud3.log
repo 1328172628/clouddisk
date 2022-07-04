@@ -1,0 +1,94 @@
+2022-06-30 14:55:05.504  INFO 21936 --- [restartedMain] com.yc.Application                       : Starting Application using Java 1.8.0_65 on Mufeng with PID 21936 (D:\IDEAProjects\clouddisk\target\classes started by MF in D:\IDEAProjects\clouddisk)
+2022-06-30 14:55:05.510  INFO 21936 --- [restartedMain] com.yc.Application                       : The following 1 profile is active: "thr"
+2022-06-30 14:55:05.545  INFO 21936 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2022-06-30 14:55:05.545  INFO 21936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 14:55:05.545  INFO 21936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30 14:55:06.139  INFO 21936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 14:55:06.190  INFO 21936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2022-06-30 14:55:06.715  INFO 21936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20003 (http)
+2022-06-30 14:55:06.716  INFO 21936 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-06-30 14:55:06.716  INFO 21936 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-06-30 14:55:06.716  INFO 21936 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-30 14:55:06.731  INFO 21936 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-06-30 14:55:06.739  INFO 21936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 14:55:06.740  INFO 21936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-06-30 14:55:06.857  INFO 21936 --- [restartedMain] o.a.c.c.C.[.[localhost].[/yccloud]       : Initializing Spring embedded WebApplicationContext
+2022-06-30 14:55:06.857  INFO 21936 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
+2022-06-30 14:55:06.977  INFO 21936 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 14:55:07.280  INFO 21936 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 14:55:07.318  INFO 21936 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 14:55:07.359  INFO 21936 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-06-30 14:55:07.504  INFO 21936 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 14:55:07.594  INFO 21936 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-30 14:55:07.972  INFO 21936 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 14:55:07.978  INFO 21936 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 14:55:08.012  WARN 21936 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:55:08.312  WARN 21936 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 14:55:08.312  INFO 21936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2022-06-30 14:55:08.313  WARN 21936 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 14:55:08.313  INFO 21936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-06-30 14:55:08.313  WARN 21936 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/pics/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 14:55:08.313  INFO 21936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2022-06-30 14:55:08.338  INFO 21936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-06-30 14:55:08.639  INFO 21936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-30 14:55:08.686  INFO 21936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20003 (http) with context path '/yccloud'
+2022-06-30 14:55:08.694  INFO 21936 --- [restartedMain] com.yc.Application                       : Started Application in 3.576 seconds (JVM running for 5.516)
+2022-06-30 14:56:17.803  INFO 11820 --- [restartedMain] com.yc.Application                       : Starting Application using Java 1.8.0_65 on Mufeng with PID 11820 (D:\IDEAProjects\clouddisk\target\classes started by MF in D:\IDEAProjects\clouddisk)
+2022-06-30 14:56:17.804  INFO 11820 --- [restartedMain] com.yc.Application                       : The following 1 profile is active: "thr"
+2022-06-30 14:56:17.838  INFO 11820 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2022-06-30 14:56:17.838  INFO 11820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 14:56:17.838  INFO 11820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30 14:56:18.408  INFO 11820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 14:56:18.462  INFO 11820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2022-06-30 14:56:18.955  INFO 11820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20003 (http)
+2022-06-30 14:56:18.956  INFO 11820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-06-30 14:56:18.956  INFO 11820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-06-30 14:56:18.956  INFO 11820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-06-30 14:56:18.960  INFO 11820 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-06-30 14:56:18.969  INFO 11820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 14:56:18.969  INFO 11820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-06-30 14:56:19.097  INFO 11820 --- [restartedMain] o.a.c.c.C.[.[localhost].[/yccloud]       : Initializing Spring embedded WebApplicationContext
+2022-06-30 14:56:19.097  INFO 11820 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1259 ms
+2022-06-30 14:56:19.206  INFO 11820 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 14:56:19.476  INFO 11820 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 14:56:19.514  INFO 11820 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 14:56:19.559  INFO 11820 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-06-30 14:56:19.709  INFO 11820 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 14:56:19.804  INFO 11820 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-30 14:56:20.242  INFO 11820 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 14:56:20.249  INFO 11820 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 14:56:20.279  WARN 11820 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 14:56:20.577  WARN 11820 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 14:56:20.578  INFO 11820 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2022-06-30 14:56:20.578  WARN 11820 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 14:56:20.578  INFO 11820 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-06-30 14:56:20.578  WARN 11820 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/pics/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 14:56:20.578  INFO 11820 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2022-06-30 14:56:20.601  INFO 11820 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-06-30 14:56:20.867  INFO 11820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-30 14:56:20.913  INFO 11820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20003 (http) with context path '/yccloud'
+2022-06-30 14:56:20.921  INFO 11820 --- [restartedMain] com.yc.Application                       : Started Application in 3.444 seconds (JVM running for 5.186)
+2022-06-30 15:27:00.868  INFO 24804 --- [main] com.yc.controller.HdfsControllerTest     : Starting HdfsControllerTest using Java 1.8.0_65 on Mufeng with PID 24804 (started by MF in D:\IDEAProjects\clouddisk)
+2022-06-30 15:27:00.871  INFO 24804 --- [main] com.yc.controller.HdfsControllerTest     : The following 1 profile is active: "thr"
+2022-06-30 15:27:01.416  INFO 24804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:27:01.471  INFO 24804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-06-30 15:27:01.982  INFO 24804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:27:03.241  INFO 24804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:27:03.300  INFO 24804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:27:03.346  INFO 24804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-06-30 15:27:03.507  INFO 24804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:27:03.606  INFO 24804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-06-30 15:27:04.051  INFO 24804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:27:04.057  INFO 24804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:27:04.125  WARN 24804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:27:04.559  WARN 24804 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 15:27:04.559  INFO 24804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2022-06-30 15:27:04.562  WARN 24804 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 15:27:04.562  INFO 24804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-06-30 15:27:04.562  WARN 24804 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/pics/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-06-30 15:27:04.562  INFO 24804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2022-06-30 15:27:04.692  INFO 24804 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-06-30 15:27:05.694  INFO 24804 --- [main] com.yc.controller.HdfsControllerTest     : Started HdfsControllerTest in 5.157 seconds (JVM running for 6.062)
+2022-06-30 15:27:05.808  INFO 24804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:27:05.808  INFO 24804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:27:05.811  INFO 24804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,35 @@
+2022-07-03 18:27:54.076  INFO 9332 --- [restartedMain] com.yc.Application                       : Starting Application using Java 1.8.0_65 on Mufeng with PID 9332 (D:\IDEAProjects\clouddisk\target\classes started by MF in D:\IDEAProjects\clouddisk)
+2022-07-03 18:27:54.081  INFO 9332 --- [restartedMain] com.yc.Application                       : The following 1 profile is active: "dev"
+2022-07-03 18:27:54.127  INFO 9332 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\MavenRepository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/D:/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2022-07-03 18:27:54.128  INFO 9332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-03 18:27:54.128  INFO 9332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-03 18:27:54.758  INFO 9332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-03 18:27:54.813  INFO 9332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-07-03 18:27:55.396  INFO 9332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 20001 (http)
+2022-07-03 18:27:55.397  INFO 9332 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-07-03 18:27:55.397  INFO 9332 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-03 18:27:55.397  INFO 9332 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-03 18:27:55.402  INFO 9332 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-07-03 18:27:55.409  INFO 9332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-03 18:27:55.410  INFO 9332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-03 18:27:55.518  INFO 9332 --- [restartedMain] o.a.c.c.C.[.[localhost].[/yccloud]       : Initializing Spring embedded WebApplicationContext
+2022-07-03 18:27:55.518  INFO 9332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1389 ms
+2022-07-03 18:27:55.638  INFO 9332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-03 18:27:55.980  INFO 9332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-03 18:27:56.018  INFO 9332 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-03 18:27:56.061  INFO 9332 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-07-03 18:27:56.254  INFO 9332 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-03 18:27:56.367  INFO 9332 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-07-03 18:27:57.013  INFO 9332 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-03 18:27:57.021  INFO 9332 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-03 18:27:57.063  WARN 9332 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-03 18:27:57.417  WARN 9332 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 18:27:57.417  INFO 9332 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2022-07-03 18:27:57.418  WARN 9332 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 18:27:57.418  INFO 9332 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2022-07-03 18:27:57.418  WARN 9332 --- [restartedMain] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/pics/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-07-03 18:27:57.418  INFO 9332 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2022-07-03 18:27:57.448  INFO 9332 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-07-03 18:27:57.778  INFO 9332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-03 18:27:57.829  INFO 9332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 20001 (http) with context path '/yccloud'
+2022-07-03 18:27:57.837  INFO 9332 --- [restartedMain] com.yc.Application                       : Started Application in 4.191 seconds (JVM running for 6.293)

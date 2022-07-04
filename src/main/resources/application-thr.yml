@@ -1,0 +1,49 @@
+server:
+  port: 20003
+  servlet:
+    session:
+      timeout: 60000
+    context-path: /yccloud
+
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        security:
+          crypto: info
+          authentication: debug
+    com.yc: info
+  file:
+    path: ./log
+    name: yccloud3.log
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.2:3306/yccloud?serverTimezone=UTC
+    username: root
+    password: mufeng
+  jpa:
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        format-sql: true
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+#        generate_statistics: true
+
+hdfs:
+  path: hdfs://yc/
+  nameservices: yc
+  username: root
+  namenodes: nn1,nn2
+  node1: node1:8020
+  node2: node2:8020
+  provider: org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider
+
+swagger:
+  enable: true
+
